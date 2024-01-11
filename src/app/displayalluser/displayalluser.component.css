@@ -1,0 +1,23 @@
+.container {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+
+.table {
+    width: 500px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table-bordered {
+
+    box-shadow: 10px 10px 20px black;
+    backdrop-filter: blur(10px);
+}
